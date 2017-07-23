@@ -1,0 +1,2 @@
+supervisor --harmony ./app.js
+
