@@ -1,9 +1,30 @@
 {
+  "name": "baidupic",
+  "version": "1.0.0",
+  "description": "获取百度图片并界解析\u001b[D\u001b[D\u001b[",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.17.2",
     "ejs": "^2.5.6",
     "express": "^4.15.3",
     "morgan": "^1.8.2",
     "request-json": "^0.6.2"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "。./bin/debug.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dai1254473705/baidupic.git"
+  },
+  "keywords": [
+    "百度图片"
+  ],
+  "author": "DIEW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dai1254473705/baidupic/issues"
+  },
+  "homepage": "https://github.com/dai1254473705/baidupic#readme"
 }

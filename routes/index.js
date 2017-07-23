@@ -6,6 +6,8 @@ const path = require("path");
 const fs = require('fs'); 
 const client = request.createClient('http://image.baidu.com');
 /**
+ * author:代云舟
+ * email:1254473705@qq.com
  * 首页
  * @param  {[type]}   req   [description]
  * @param  {[type]}   res   [description]
@@ -64,4 +66,5 @@ router.all("/getbaidupic_bendi",function(req,res,next){
 	console.log(body);
 	res.json({"body":body,"statics":statics});
 })
+//email:1254473705@qq.com author:daiyunzhou 
 module.exports = router;
